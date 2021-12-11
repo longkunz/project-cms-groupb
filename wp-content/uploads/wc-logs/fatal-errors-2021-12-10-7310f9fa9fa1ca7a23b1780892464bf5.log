@@ -1,0 +1,12 @@
+2021-12-10T03:38:11+00:00 CRITICAL Uncaught Error: Call to a member function get_availability() on null in /var/www/wptbox/wp-content/themes/porto/woocommerce/wishlist-view.php:144
+Stack trace:
+#0 /var/www/wptbox/wp-content/plugins/yith-woocommerce-wishlist/includes/functions-yith-wcwl.php(133): include()
+#1 /var/www/wptbox/wp-content/plugins/yith-woocommerce-wishlist/includes/functions-yith-wcwl.php(184): yith_wcwl_get_template()
+#2 /var/www/wptbox/wp-content/plugins/yith-woocommerce-wishlist/includes/class-yith-wcwl-frontend.php(518): yith_wcwl_get_template_part()
+#3 /var/www/wptbox/wp-includes/class-wp-hook.php(303): YITH_WCWL_Frontend->main_wishlist_content()
+#4 /var/www/wptbox/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /var/www/wptbox/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /var/www/wptbox/wp-content/plugins/yith-woocommerce-wishlist/templates/wishlist.php(38): do_action()
+#7 /var/www/wptbox/wp-content/plugins/yith-woocommerce-wishlist/includes/functions-yith-wcwl.php(133): include('/var/www/wptbox...')
+# in /var/www/wptbox/wp-content/themes/porto/woocommerce/wishlist-view.php on line 144
+
